@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600&family=Montserrat:wght@200&family=Poppins:wght@300;600&family=Roboto+Mono:wght@200&display=swap');
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
 header{
     height: 10vh;
     display: flex;
     justify-content: center;
     background-color: #312450;
     font-family: 'Poppins', sans-serif;
+    opacity: 0.4;
 }
 
 ul{
@@ -14,13 +20,14 @@ ul{
     
 }
 
-li{
+a{
     color: #F9F9F9;
     list-style-type: none;
     cursor: pointer;
     padding-left: 2rem;
 }
-li:hover{
+
+a:hover{
     color: #E2C3FD;
     transform: scale(1.05);
 }
@@ -90,7 +97,7 @@ img{
 }
 
 
-.btn {
+.custom-btn {
     transition: border-color 0.2s ease;
     background-color: transparent;
     border: solid 1px !important;
@@ -109,12 +116,10 @@ img{
     position: relative;
     text-align: center;
     text-decoration: none;
-    text-transform: uppercase;
-    white-space: nowrap;
     
 }
 
-.btn:hover{
+.custom-btn:hover{
     border: 1px solid #F9F9F9;
     transform: scale(1.05);
     color: #F9F9F9;
