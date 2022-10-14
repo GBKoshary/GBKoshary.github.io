@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600&family=Montserrat:wght@200&family=Poppins:wght@300;600&family=Roboto+Mono:wght@200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    background-color: #312450;
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.4;
+}
+
+ul{
+    display: flex;
+    margin: 23px;
+}
+
+a{
+    color: #F9F9F9;
+    list-style-type: none;
+    cursor: pointer;
+    padding-left: 2rem;
+}
+
+a:hover{
+    color: #E2C3FD;
+    transform: scale(1.05);
+}
+
+body{
+    background-image: url("images/background.png");
+    /*background-color: #5e42a6; */
+    font-family: 'Poppins', sans-serif;
+}
+
+#title{
+    padding: 64px 24px 32px 64px;
+}
+
+h1{
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0 0 0.5em 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container1, .container2, .container3, .container4, .container5{
+    display: flex;
+    margin: 0 0 0 0.5em 0;
+    
+}
+
+.container1{
+    background-color: #866dc5;
+}
+
+.container2{
+    background-color: #7A5FBF;
+}
+
+.container3{
+    background-color: #533A92;
+}
+
+.container4{
+    background-color: #422F75;
+}
+
+.container5{
+    background-color: #291D49;
+}
+
+#textocontainer{
+    padding: 64px 64px 32px 64px;
+    border: none;
+    margin: none;
+}
+
+#subtitulo{
+    font-size: 1.25em;
+    align-items: center;
+}
+
+p, h4{
+    margin: 0 0 2em 0;
+    color: #F9F9F9;
+}
+
+img{
+    width: 300px
+}
+
+
+.custom-btn {
+    transition: border-color 0.2s ease;
+    background-color: transparent;
+    border: solid 1px !important;
+    border-color: rgba(255, 255, 255, 0.15) !important;
+    border-radius: 3em;
+    color: #ffffff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.6em;
+    font-weight: bold;
+    height: calc(4.75em + 2px);
+    letter-spacing: 0.25em;
+    line-height: 4.75em;
+    outline: 0;
+    padding: 0 3.75em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.custom-btn:hover{
+    border: 1px solid #F9F9F9;
+    transform: scale(1.05);
+    color: #F9F9F9;
+    box-shadow: 0px 0px 10px #6E50B9, 0px 0px 10px;
+}
