@@ -134,3 +134,89 @@ h1{
     flex-wrap: wrap;
     display: flex;
 }
+
+@media screen and (max-width: 768px){
+    header, ul{
+        display: flex;
+        margin: 0;
+        padding: 4px 8px;
+        font-size: 10px;
+        height: 30px;
+        background-color:#291D49;
+        opacity: 0.8;
+    }
+
+    a{
+        display:inline-block;
+        margin: 0;
+        padding: 4px 8px;
+        background-color: none;
+        opacity: 1;
+    }
+
+    .espacamento_texto_centro{
+        text-align: justify;
+    }
+
+    .texto_justificado1{
+        text-align: left;
+        padding: 0 5%;
+    }
+
+    .imgcentro{
+        text-align: center;
+    }
+
+    #tradingview{
+        width: 100%;
+    }
+
+
+    body{
+        background-color: #E0E0E0;
+        background-image: none;
+    }
+
+    .container{
+        padding: 5% 0;
+        margin: 0 0;
+        text-align: justify;
+    }
+
+    h1{
+        text-align: center;
+        padding: 5% 0;
+    }
+
+    .colunas{
+        padding: 0;
+        margin: 0;
+    }
+
+    .col1, .col2, .comum{
+        max-width: 100%;
+        flex: 100%;
+        text-align: justify;
+        padding: 0;
+        margin: 0;
+    }
+
+    .container3{
+        text-align: center;
+        padding: 0 5%;
+    }
+    #descricao{
+        padding: 5% 0;
+    }
+
+    #videos{
+        width: 100%;
+        height: 230px;
+        text-align: justify;
+        padding: 0;
+        margin: 0;
+    }
+    .container2{
+        display: none;
+    }
+}
