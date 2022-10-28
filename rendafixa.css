@@ -150,3 +150,65 @@ h1{
 #videos{
     margin: 0 0 0 7%;
 }
+
+
+@media screen and (max-width: 768px){
+    header, a, ul{
+        display: flex;
+        margin: 0;
+        padding: 4px 8px;
+        font-size: 10px;
+        height: 30px;
+        background-color:#291D49;
+        opacity: 0.8;
+    }
+
+    body{
+        background-color: #E0E0E0;
+        background-image: none;
+    }
+
+    .container{
+        padding: 5% 0;
+        margin: 0 0;
+        text-align: justify;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    img{
+        display: none;
+    }
+
+    .colunas{
+        padding: 0;
+        margin: 0;
+    }
+
+    .col1, .col2, .comum{
+        max-width: 100%;
+        flex: 100%;
+        text-align: justify;
+        padding: 0;
+        margin: 0;
+    }
+
+    #descricao{
+        padding: 5% 0;
+    }
+
+    #videos{
+        width: 100%;
+        height: 230px;
+        text-align: justify;
+        padding: 0;
+        margin: 0;
+    }
+
+    .container2{
+        display: none;
+    }
+
+}
