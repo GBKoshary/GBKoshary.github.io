@@ -2682,6 +2682,24 @@ input, select, textarea {
 
 /* Actions */
 
+.botoes{
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	padding: 5% 0;
+}
+
+@media screen and (max-width: 768px){
+	.botoes{
+		display: center;
+		text-align: center;
+		position: relative;
+		padding: 2% 0;
+		padding-bottom: 5%;
+	}
+
+}
+
 	ul.actions {
 		display: -moz-flex;
 		display: -webkit-flex;
