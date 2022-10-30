@@ -2682,11 +2682,18 @@ input, select, textarea {
 
 /* Actions */
 
+.centro{
+	display: center;
+	position: center;
+	text-align: center;
+}
+
 .botoes{
 	display: inline-block;
-	position: relative;
+	position: flex;
 	text-align: center;
-	padding: 5% 0;
+	padding: 5% 1%;
+	margin: 0;
 }
 
 @media screen and (max-width: 768px){
