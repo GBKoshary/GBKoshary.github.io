@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
 	</head>
 	<body class="is-preload">
 
@@ -52,9 +53,129 @@
 											<li><a href="dashboard.html">Dashboard</a></li>
 										</ul>
 									</nav>
-										
-									<h1>EM CONSTRUÇÃO</h1>
+								
+									<h1>Registros</h1>
 								</header>
+
+								<!-- Form -->
+								<h2>Controle de Gastos</h2>
+
+								<form method="post" action="#">
+									<div class="row gtr-uniform">
+										<div class="col-6 col-12-xsmall">
+											<input type="text" name="nomeDespesa" id="demo-name" value="" placeholder="Nome da Despesa (ex: Academia; Aluguel)" />
+										</div>
+										<div class="col-6 col-12-xsmall">
+											<input type="number" name="custo" step="0.01" id="demo-name" value="" placeholder="Custo (ex: 120,99)" />
+										</div>
+										<div class="col-6 col-12-xsmall">
+											<input type="text" name="fontePagamento" id="demo-name" value="" placeholder="Fonte do Pagamento (ex: Salário; Lazer)" />
+										</div>
+										
+										<div class="col-6 col-12-xsmall">
+											<input type="datetime" name="data" id="demo-name" value="" placeholder="Data (ex: 03/11/2022)" />
+										</div>
+										<!-- Break -->
+										<div class="col-12">
+											<select name="demo-category" id="demo-category">
+												<option value="">- Categoria -</option>
+												<option value="1">Moradia (ex: Comida, Luz, Aluguel, Internet)</option>
+												<option value="1">Transporte (ex: Uber, Ônibus)</option>
+												<option value="1">Saúde (ex: Academia, Multivitamínico)</option>
+												<option value="1">Lazer (ex: Lanche, Viagem)</option>
+												<option value="1">Imprevisto (ex: Conserto carro)</option>
+											</select>
+										</div>
+										<!-- Break -->
+										<div class="col-12">
+											<ul class="actions">
+												<li><input type="submit" value="Enviar" class="primary" /></li>
+												<li><input type="reset" value="Apagar" /></li>
+											</ul>
+										</div>
+									</div>
+								</form>
+
+								<hr />
+
+								
+								<!-- Form -->
+								<h2>Controle dos Investimentos</h2>
+
+								<form method="post" action="#">
+									<div class="row gtr-uniform">
+										<div class="col-6 col-12-xsmall">
+											<input type="text" name="nomeDespesa" id="demo-name" value="" placeholder="Corretora (ex: Inter, XP, Genial)" />
+										</div>
+										<div class="col-6 col-12-xsmall">
+											<input type="text" name="fontePagamento" id="demo-name" value="" placeholder="Destino (ex: Viagem, Carteira, Aposentadoria)" />
+										</div>
+										<div class="col-6 col-12-xsmall">
+											<input type="datetime" name="data" id="demo-name" value="" placeholder="Data Início (03/11/2022)" />
+										</div>
+										<div class="col-6">
+											<select name="demo-category" id="demo-category">
+												<option value="">- Tipo de Investimento -</option>
+												<option value="1">Renda Fixa</option>
+												<option value="1">FII</option>
+												<option value="1">Ação</option>
+												<option value="1">Exterior</option>
+												<option value="1">Criptomoedas</option>
+												<option value="1">Outros</option>
+											</select>
+										</div>
+
+										<div class="col-6 col-12-xsmall">
+											<input type="datetime" name="vencimento2" id="demo-name" value="" placeholder="Vencimento (03/12/2025)" />
+										</div>
+										<div class="col-6">
+											<select name="demo-category" id="demo-category">
+												<option value="">- Detalhes -</option>
+												<option value="1">Pós-Fixado</option>
+												<option value="1">Prefixado</option>
+												<option value="1">Atrelado ao IPCA</option>
+												<option value="1">Tesouro Selic</option>
+												<option value="1">Tesouro Direto</option>
+												<option value="1">Tesouro IPCA+</option>
+												<option value="1">Tijolos</option>
+												<option value="1">Desenvolvimento</option>
+												<option value="1">Papéis</option>
+												<option value="1">FoFs</option>
+												<option value="1">Misto</option>
+												<option value="1">Indefinido</option>
+												<option value="1">REITs</option>
+												<option value="1">S&P</option>
+												<option value="1">DeFi</option>
+												<option value="1">NFT</option>
+												<option value="1">Metaverso</option>
+												<option value="1">Polkadot</option>
+												<option value="1">Outros</option>
+											</select>
+										</div>
+										<div class="col-6 col-12-xsmall">
+											<input type="number" name="valorPago" placeholder="Valor Pago (ex: 120,99)" />
+										</div>
+										<div class="col-6 col-12-xsmall">
+											<input type="text" name="indexador"  placeholder="Indexador (ex: CDI, NTN-F, IMA-B5)" />
+										</div>
+										<div class="col-6 col-12-xsmall">
+											<input type="text" name="porcentagem" placeholder="Rendimento (ex: 120% CDI;  13% a.a.)" />
+										</div>
+										<div class="col-12">
+											<textarea name="demo-message" id="demo-message" placeholder="É recomendado que você anote as motivações de ter comprado o ativo ou acumulado o dinheiro, assim, no longo/prazo você não se esquecerá de sua meta ou tomada de decisão. PS: Todos os dados ficarão salvos em seu próprio dispositivo móvel ou computador, este site é um mero instrumento de trabalho (visualização e edição)." rows="6"></textarea>
+										</div>
+										
+										<!-- Break -->
+										
+										<!-- Break -->
+										<div class="col-12">
+											<ul class="actions">
+												<li><input type="submit" value="Enviar" class="primary" /></li>
+												<li><input type="reset" value="Apagar" /></li>
+											</ul>
+										</div>
+									</div>
+								</form>
 
 							</section>
 						</div>
