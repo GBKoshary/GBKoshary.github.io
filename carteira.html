@@ -69,7 +69,7 @@
 											<input type="number" name="custo" step="0.01" id="demo-name" value="" placeholder="Custo (ex: 120,99)" />
 										</div>
 										<div class="col-6 col-12-xsmall">
-											<input type="text" name="fontePagamento" id="demo-name" value="" placeholder="Fonte do Pagamento (ex: Salário; Lazer)" />
+											<input type="text" name="fontePagamento" id="demo-name" value="" placeholder="Fonte do Pagamento (ex: Salário; Reserva; Lazer)" />
 										</div>
 										
 										<div class="col-6 col-12-xsmall">
@@ -80,16 +80,17 @@
 											<select name="demo-category" id="demo-category">
 												<option value="">- Categoria -</option>
 												<option value="1">Moradia (ex: Comida, Luz, Aluguel, Internet)</option>
-												<option value="1">Transporte (ex: Uber, Ônibus)</option>
+												<option value="1">Transporte (ex: Uber, Ônibus, Combustível)</option>
 												<option value="1">Saúde (ex: Academia, Multivitamínico)</option>
 												<option value="1">Lazer (ex: Lanche, Viagem)</option>
+												<option value="1">Empresa (ex: Pagamento de Funcionário)</option>
 												<option value="1">Imprevisto (ex: Conserto carro)</option>
 											</select>
 										</div>
 										<!-- Break -->
 										<div class="col-12">
 											<ul class="actions">
-												<li><input type="submit" value="Enviar" class="primary" /></li>
+												<li><input type="submit" value="Salvar" class="primary" /></li>
 												<li><input type="reset" value="Apagar" /></li>
 											</ul>
 										</div>
@@ -108,7 +109,7 @@
 											<input type="text" name="nomeDespesa" id="demo-name" value="" placeholder="Corretora (ex: Inter, XP, Genial)" />
 										</div>
 										<div class="col-6 col-12-xsmall">
-											<input type="text" name="fontePagamento" id="demo-name" value="" placeholder="Destino (ex: Viagem, Carteira, Aposentadoria)" />
+											<input type="text" name="fontePagamento" id="demo-name" value="" placeholder="Meta (ex: Viagem, Reserva, Aposentadoria)" />
 										</div>
 										<div class="col-6 col-12-xsmall">
 											<input type="datetime" name="data" id="demo-name" value="" placeholder="Data Início (03/11/2022)" />
@@ -159,10 +160,13 @@
 											<input type="text" name="indexador"  placeholder="Indexador (ex: CDI, NTN-F, IMA-B5)" />
 										</div>
 										<div class="col-6 col-12-xsmall">
+											<input type="number" name="qtdCota" placeholder="Quantidade de Ativos" />
+										</div>
+										<div class="col-6 col-12-xsmall">
 											<input type="text" name="porcentagem" placeholder="Rendimento (ex: 120% CDI;  13% a.a.)" />
 										</div>
 										<div class="col-12">
-											<textarea name="demo-message" id="demo-message" placeholder="É recomendado que você anote as motivações de ter comprado o ativo ou acumulado o dinheiro, assim, no longo/prazo você não se esquecerá de sua meta ou tomada de decisão. PS: Todos os dados ficarão salvos em seu próprio dispositivo móvel ou computador, este site é um mero instrumento de trabalho (visualização e edição)." rows="6"></textarea>
+											<textarea name="demo-message" id="demo-message" placeholder="É recomendado que você anote as motivações de ter comprado o ativo ou acumulado o dinheiro, assim, no longo/prazo você não se esquecerá de sua meta ou tomada de decisão. PS: Todos os dados ficarão salvos em seu próprio dispositivo móvel ou computador, este site é um mero instrumento de trabalho (visualização e edição) destinado ao controle dos investimentos e gastos." rows="6"></textarea>
 										</div>
 										
 										<!-- Break -->
@@ -170,7 +174,7 @@
 										<!-- Break -->
 										<div class="col-12">
 											<ul class="actions">
-												<li><input type="submit" value="Enviar" class="primary" /></li>
+												<li><input type="submit" value="Salvar" class="primary" /></li>
 												<li><input type="reset" value="Apagar" /></li>
 											</ul>
 										</div>
