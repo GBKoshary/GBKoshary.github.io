@@ -3633,8 +3633,6 @@ input, select, textarea {
 		}
 
 
-
-
 /* Wallet */
 
 	#wallet {
@@ -3654,9 +3652,10 @@ input, select, textarea {
 		overflow: hidden;
 		padding: 0 2rem 0 0;
 		position: relative;
-		width: calc(100% - 4rem);
+		width: calc(100% - 6.5rem);
 		max-width: 72rem;
 		z-index: 2;
+
 	}
 
 	#wallet ul{
@@ -3668,8 +3667,6 @@ input, select, textarea {
 		margin-bottom: 0;
 		padding-left: 0;
 		text-transform: uppercase;
-		
-		
 	}
 
 	#wallet a {
@@ -3696,11 +3693,13 @@ input, select, textarea {
 		margin-bottom: 0;
 		padding-left: 0;
 		text-transform: uppercase;
+
 	}
 
 		#wallet ul.links li {
 			display: block;
 			padding-left: 0;
+
 		}
 
 			#wallet ul.links li a {
@@ -3709,9 +3708,9 @@ input, select, textarea {
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				display: block;
-				font-size: 0.8rem;
+				font-size: 0.7rem;
 				outline: none;
-				padding: 0 2rem;
+				padding: 0 1rem;
 			}
 
 				#wallet ul.links li a:hover {
